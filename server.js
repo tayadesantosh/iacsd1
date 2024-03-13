@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
   res.end('<h1>Hello There</h1>');
 });
-server.listen(500, () => {
-  console.log(`Server running at 500`);
+server.listen(7000, () => {
+  console.log(`Server running at 7000`);
 });
